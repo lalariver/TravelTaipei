@@ -1,0 +1,36 @@
+/*
+  Localizable(en).strings
+  TravelTaipei
+
+  Created by user on 2024/12/31.
+  
+*/
+
+"最新消息" = "Latest News";
+"遊憩景點" = "Tourist Attractions";
+"選擇語言" = "Choose Language";
+"App 內部開啟" = "Open within App";
+"手機瀏覽器開啟" = "Open in Mobile Browser";
+"語言" = "Language";
+"取消" = "Cancel";
+"確認" = "Confirm";
+"返回" = "Back";
+"搜尋" = "Search";
+"設置" = "Settings";
+"查看詳情" = "View Details";
+"關於我們" = "About Us";
+"聯絡我們" = "Contact Us";
+"幫助" = "Help";
+"更多" = "More";
+"熱門" = "Popular";
+"推薦" = "Recommended";
+"儲存" = "Save";
+"分享" = "Share";
+"地圖" = "Map";
+"導航" = "Navigation";
+"路線" = "Route";
+"開啟" = "Open";
+"關閉" = "Close";
+"正在加載" = "Loading...";
+"未來活動" = "Upcoming Events";
+"過去活動" = "Past Events";

@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE926B672D1E5A3900F778C6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE926B662D1E5A3900F778C6 /* SnapKit */; };
+		CE926B7E2D231DDA00F778C6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CE926B7D2D231DDA00F778C6 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CE926B482D1E587900F778C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE926B7E2D231DDA00F778C6 /* Kingfisher in Frameworks */,
+				CE926B672D1E5A3900F778C6 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +132,8 @@
 			);
 			name = TravelTaipei;
 			packageProductDependencies = (
+				CE926B662D1E5A3900F778C6 /* SnapKit */,
+				CE926B7D2D231DDA00F778C6 /* Kingfisher */,
 			);
 			productName = TravelTaipei;
 			productReference = CE926B312D1E587600F778C6 /* TravelTaipei.app */;
@@ -200,14 +209,20 @@
 				};
 			};
 			buildConfigurationList = CE926B2C2D1E587500F778C6 /* Build configuration list for PBXProject "TravelTaipei" */;
-			developmentRegion = en;
+			developmentRegion = "zh-Hant";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
+				"zh-Hans",
 			);
 			mainGroup = CE926B282D1E587500F778C6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CE926B652D1E5A3900F778C6 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				CE926B7C2D231DDA00F778C6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CE926B322D1E587600F778C6 /* Products */;
 			projectDirPath = "";
@@ -343,6 +358,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -406,6 +422,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -569,6 +586,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE926B652D1E5A3900F778C6 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		CE926B7C2D231DDA00F778C6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE926B662D1E5A3900F778C6 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE926B652D1E5A3900F778C6 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		CE926B7D2D231DDA00F778C6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE926B7C2D231DDA00F778C6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE926B292D1E587500F778C6 /* Project object */;
 }
